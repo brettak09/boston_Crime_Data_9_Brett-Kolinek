@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bston Crime Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../_assets/css/custom.min.css">
+    
+  </head>
+  <body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Boston Crime Data</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="year.html">Crimes Per Year</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="offensetype.html">Crimes by Offense Type</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="hour.html">Crimes by Hour</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="district.html">Crime by District</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="comparison.html">Crime Comparision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Crime Data</a>
+                      </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">Cerulean <span class="caret"></span></a>
+              <div class="dropdown-menu" aria-labelledby="download">
+                <a class="dropdown-item" target="_blank" href="https://jsfiddle.net/bootswatch/9y480qo5/">Open in JSFiddle</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../4/cerulean/bootstrap.min.css" download>bootstrap.min.css</a>
+                <a class="dropdown-item" href="../4/cerulean/bootstrap.css" download>bootstrap.css</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../4/cerulean/_variables.scss" download>_variables.scss</a>
+                <a class="dropdown-item" href="../4/cerulean/_bootswatch.scss" download>_bootswatch.scss</a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="containers">Containers</h1>
+            </div>
+            <div class="bs-component">
+              <div class="jumbotron">
+                <h1 class="display-3">Boston Crime Data By Year</h1>
+                <p><img src="images/incidents_per_year.jpg" alt=""></p>
+                <hr class="my-4">
+                <p>Still want more?</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="offensetype.html" role="button">Continue</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   
+    <script src="../_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../_vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../_assets/js/custom.js"></script>
+  </body>
+</html>
