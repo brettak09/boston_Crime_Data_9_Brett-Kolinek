@@ -6,7 +6,7 @@ Analysis of Boston Crime Data from 2015 through September of 2018
 
 ### Objective/Purpose
 
-Using CSV files an SQLite database was created, the accessed in Jupyter notebook.  Create several tables to compare data points, saved data to images and created a locally hosted site to display the data using bootstrap.
+Using CSV files an SQLite database was created, then accessed in Jupyter notebook.  Created several tables to compare data points, saved data to images and created a locally hosted site to display the data using bootstrap.
 
 ### Conclusion
 
